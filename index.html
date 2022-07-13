@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<title>Frontend Mentor | Expenses chart component</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+    	.attribution { font-size: 11px; text-align: center; position: absolute; bottom: 0px; width: 100%; text-align: center; color: white; background-color: black; padding: 5px; font-size: 14px}
+    	.attribution a { color: hsl(228, 45%, 44%); }
+  	</style>
+</head>
+<body>
+
+	<main>
+		<div id="container">
+			<div class="myBalance-container">
+				<div id="myBalance">
+					<small id="Balance_title">My balance</small>
+					<h3 id="balance_qntd">$921.48</h3>
+				</div>
+				<img id="logo" alt="logo" src="./images/logo.svg">
+			</div>
+
+			<div class="spendingStats-container">
+				<h2 id="spending_title">Spending - Last 7 days</h2>
+				<div class="spending-graphics">
+					<div id="stats-container">
+						<div class="graphics-container">
+							<small class="day-spending-amount">$0</small>
+							<div class="graphics" id="mon" data-week-day="mon"></div>
+						</div>
+						<div class="graphics-container">
+							<small class="day-spending-amount">$0</small>
+							<div class="graphics" id="tue" data-week-day="tue"></div>
+						</div>
+						<div class="graphics-container">
+							<small class="day-spending-amount">$0</small>
+							<div class="graphics" id="wed" data-week-day="wed"></div>
+						</div>
+						<div class="graphics-container">
+							<small class="day-spending-amount">$0</small>
+							<div class="graphics" id="thu" data-week-day="thu"></div>
+						</div>
+						<div class="graphics-container">
+							<small class="day-spending-amount">$0</small>
+							<div class="graphics" id="fri" data-week-day="fri"></div>
+						</div>
+						<div class="graphics-container">
+							<small class="day-spending-amount">$0</small>
+							<div class="graphics" id="sat"data-week-day="sat"></div>
+						</div>
+						<div class="graphics-container">
+							<small class="day-spending-amount">$0</small>
+							<div class="graphics" id="sun" data-week-day="sun"></div>
+						</div>
+					</div>
+					<ul>
+						<li class="day">mon</li>
+						<li class="day">tue</li>
+						<li class="day">wed</li>
+						<li class="day">thu</li>
+						<li class="day">fri</li>
+						<li class="day">sat</li>
+						<li class="day">sun</li>
+					</ul>
+				</div>
+
+				<div class="total-spending">
+					<small class="small-title">Total this month</small>
+					<div class="spending-info">
+						<h1 id="month_spending">$478.33</h1>
+						<div id="monthPercent">
+							<h5 id="percent">+2.4%</h5>
+							<small class="small-title">from last month</small>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+  
+	<div class="attribution">
+	    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+	    Coded by <a href="https://github.com/thalesmariiano">Thales Mariano (THΔLES)</a>.
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
