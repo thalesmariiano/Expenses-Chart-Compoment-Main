@@ -1,11 +1,11 @@
 # Expenses-Chart-Compoment-Main
 
-A Expenses Chart Compoment made for one of the Front-End Mentor challenges
+Uma medidor de gastos funcional. Feita para um dos desafios do Front-End mentor.
 
 ## Preview site:
 https://expenses-chart-component-main-front-end-mentor.netlify.app/
 
-## Made With:
+## Tecnologias usadas:
 - HTML5
 - CSS3
 - Javascript
